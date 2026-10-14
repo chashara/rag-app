@@ -11,7 +11,7 @@ console.log("Embedding length:", emb.embeddings[0].values.length);
 
 // 2. Chat: ask the model something
 const res = await ai.models.generateContent({
-  model: "gemini-3.8-flash",
+  model: "gemini-3.5-flash-lite",
   contents: "Say hello in one short sentence.",
 });
 console.log("Answer:", res.text);
