@@ -5,7 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install --prefix client --include=dev && npm run build --prefix client",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,11 @@
   "dependencies": {
     "@google/genai": "^2.28.0",
     "express": "^5.3.0"
-  }
+  },
+
+  "engines": {
+  "node": "22.x"
+}
+
+
 }

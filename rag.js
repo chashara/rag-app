@@ -87,7 +87,7 @@ ${context}
 QUESTION: ${question}`;
 
   const answer = await withRetry(() =>
-    ai.models.generateContent({ model: "gemini-3.8-flash", contents: prompt })
+    ai.models.generateContent({ model: "gemini-3.5-flash-lite", contents: prompt })
   );
 
   return {
