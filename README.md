@@ -1,4 +1,3 @@
-# Rag-app
 
 # Ask My Documents (RAG app)
 
